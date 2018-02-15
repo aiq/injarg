@@ -1,0 +1,17 @@
+-nostdin
+
+-b
+250k
+
+-strict
+experimental
+
+-deinterlace
+
+-vcodec
+h264
+
+-acodec
+aac
+
+example.mp4
