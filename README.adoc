@@ -1,7 +1,7 @@
 = injarg
 
 ----
-inject == inj[ect]args[s]
+inject == inj[ect]arg[s]
 ----
 
 Command-line tool that allows to call an app with arguments from an args file.
