@@ -9,7 +9,9 @@ Command-line tool that allows to call an app with arguments from an args file.
 == Usage
 
 ----
-injarg 
+injarg <app> [ ... --args <file> ... ]
+eval $( injarg <app> [ ... --args <file> ... ] )
+injarg <app> [ ... --args <file> ... ] | /bin/sh
 ----
 
 == Installation

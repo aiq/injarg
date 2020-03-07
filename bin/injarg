@@ -315,6 +315,8 @@ end
 if #arg < 1 then
    errfln( "Need at least the app name." )
    printfln( usage() )
+   printfln( "eval $( "..usage().." )" )
+   printfln( usage().." | /bin/sh" )
    errexit()
 end
 
